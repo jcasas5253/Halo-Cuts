@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #016fb9 !important;
+    padding-right: 20px;
+    padding-left: 20px;
+    animation: myanimation 10s infinite;
+}
+.navbar-brand {
+    font-size: x-large;
+    font-weight: 700;
+}
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+.navbar-nav {
+    margin-left: auto !important;
+}
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.jumbotron {
+    color: white;
+    background-image: url("https://images.pexels.com/photos/1399073/pexels-photo-1399073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  /* #enter {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      outline-style: solid;
+      outline-width: 1px;
+      outline-color: red;
+      background-color: transparent;
+      color: #fff;
+      font-size: x-large;
+  } */
+  .header {
+    font-weight: 700;
+    color: #fff;
+    position: fixed;
+    top: 20% !important;
+    left: 50% !important;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%) !important;
+  }
+  .hamburger {
+    border-radius: 100%;
+    background-color: darkcyan;
+    position: fixed;
+    top: 30% !important;
+    left: 50% !important;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%) !important;
+}
+.hamburger__icon, .hamburger__icon:before, .hamburger__icon:after {
+    background-color: #fff !important;
+}
+.hamburger__icon {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
